@@ -1,0 +1,56 @@
+/* Utility CSS Classes */
+.title-text{
+    font: bold 50px var(--roboto);
+}
+
+.button {
+    padding: 0.8em 2em;
+    font: normal 500 16px var(--roboto);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;    
+}
+
+.button.primary-btn{
+    background-color: purple;
+    color:white;
+    transition: .6s ease;
+    box-shadow: var(--box-shadow);
+}
+
+.button.primary-btn:hover {
+    background: white;
+    color: var(--text-color);
+}
+
+.button.primary-btn:after {
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px
+}
+
+.para {
+    color: var(--text-color);
+    font: normal 500 16px/25px var(--roboto);
+}
+
+.font-roboto {
+    font-family: var(--roboto);
+}
+
+/* Style button/btn for pseudo selectors like focus, active, and hover. */
+.gallery button:focus,
+.gallery button:active,
+.gallery button:hover,
+.gallery .btn:active {
+    outline: 0px !important;
+    text-decoration: underline;
+}
+
+/* Style "title-h1" */
+
+.title-h1 {
+    font: normal bold 39px/40px var(--roboto);
+}

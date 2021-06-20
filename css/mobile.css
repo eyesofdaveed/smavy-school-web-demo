@@ -1,0 +1,36 @@
+/* Create a media query for tablet and mobile devices */
+@media(max-width:376px){
+    .main .banner .title h1{
+        font-size: 40px;
+    }
+
+    .main .about .about-title h2{
+        font-size: 24px;
+    }
+
+    .main .brand {
+        padding: 1rem 1rem;
+    }    
+
+    .main .brand .exp .years {
+        padding: 0;
+    }
+
+    .main .brand .exp .call {
+        padding-left: 20%;
+    }
+
+    .main .services .services-title {
+       padding: 5rem;
+    }
+
+    .main .about .about-title .para {
+        padding: 0;
+    }
+
+    .main .sub-us form .btn-submit{
+        padding-top: 1rem;
+        padding-left: 60%;
+    }
+
+}
