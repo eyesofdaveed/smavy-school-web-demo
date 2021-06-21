@@ -22,6 +22,7 @@ $(document).ready(function(){
         // automatically loop through carousel
         loop: true,
         autoplay: true,
+        lazyLoad:true,
         dots: true,
         responsive:{
             // from 0 - 544pixels '1' item, and 2 for '544px' or more
